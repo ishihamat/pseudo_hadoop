@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+  <% node['hadoop']['core_site'].each do |hash| %>
+    <% hash.each do |name,  value| %>
+      <property>
+        <name><%= name %></name>
+        <value><%= value %></value>
+      </property>
+    <% end %>
+  <% end %>
+</configuration>

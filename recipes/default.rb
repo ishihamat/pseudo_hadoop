@@ -2,7 +2,9 @@
 # Cookbook Name:: pseudo_hadoop
 # Recipe:: default
 #
-# Copyright (C) 2014 YOUR_NAME
+# Copyright 2014, YOUR_COMPANY_NAME
 #
 # All rights reserved - Do Not Redistribute
+#
+# -----------------------------------------
 #
